@@ -1,0 +1,30 @@
+{
+  "school": {"nameEn":"Legacy Model Primary School","nameBn":"লিগ্যাসি মডেল সরকারি প্রাথমিক বিদ্যালয়"},
+  "settings": {"receiptSerial":42,"certSerial":17,"session":"2026","password":"1234"},
+  "examTerms": [{"id":"1st","name":"1st"},{"id":"2nd","name":"2nd"},{"id":"monthly","name":"Monthly Assessment"}],
+  "students": [
+    {"id":"old-s1","admissionNo":"AMS-2026-0001","className":"3","roll":"1","section":"A","nameEn":"Arif Hasan","nameBn":"আরিফ হাসান","gender":"Male","dob":"2016-02-12","bloodGroup":"O+","religion":"Islam","nationality":"Bangladeshi","birthRegNo":"20161234567890123","father":{"name":"Abdul Karim","nid":"1234567890","mobile":"01711111111","occupation":"Farmer"},"mother":{"name":"Rokeya Begum","nid":"2234567890","mobile":"01811111111","occupation":"Homemaker"},"guardian":{"name":"Abdul Karim","relation":"Father","mobile":"01711111111"},"permanent":{"village":"Charpara","postOffice":"Mirzapur","upazila":"Mirzapur","district":"Tangail"},"present":{"village":"Charpara","postOffice":"Mirzapur","upazila":"Mirzapur","district":"Tangail"},"prevSchool":"Sunrise KG","prevClass":"2","prevResult":"Passed","height":"125 cm","weight":"26 kg","eyesight":"Normal","vaccines":[true,true,true,true,true,true],"diseases":"None","emergency":{"name":"Abdul Karim","relation":"Father","mobile":"01711111111"},"admissionDate":"2026-01-02","photo":""},
+    {"id":"old-s2","admissionNo":"AMS-2026-0002","className":"3","roll":"1","section":"B","nameEn":"Nusrat Jahan","nameBn":"নুসরাত জাহান","gender":"Female","dob":"2016-05-18","bloodGroup":"A+","religion":"Islam","nationality":"Bangladeshi","birthRegNo":"20161234567890124","father":{"name":"Mizanur Rahman","mobile":"01722222222","occupation":"Business"},"mother":{"name":"Nasima Akter","mobile":"bad-mobile","occupation":"Homemaker"},"guardian":{"name":"Mizanur Rahman","relation":"Father","mobile":"01722222222"},"permanent":{"village":"Bhatgram","postOffice":"Mirzapur","upazila":"Mirzapur","district":"Tangail"},"present":{"village":"Bhatgram","postOffice":"Mirzapur","upazila":"Mirzapur","district":"Tangail"},"prevSchool":"Green School","prevClass":"2","prevResult":"Passed","height":"123 cm","weight":"25 kg","eyesight":"Normal","vaccines":[true,true,true,true,true,true],"diseases":"None","emergency":{"name":"Mizanur Rahman","relation":"Father","mobile":"01722222222"},"admissionDate":"2026-01-03","photo":""},
+    {"id":"old-s3","admissionNo":"AMS-2026-0003","className":"4","roll":"7","section":"A","nameEn":"Siam Ahmed","nameBn":"সিয়াম আহমেদ","gender":"Male","dob":"2015-07-09","bloodGroup":"B+","religion":"Islam","nationality":"Bangladeshi","birthRegNo":"20151234567890125","father":{"name":"Habib Ahmed","mobile":"01933333333","occupation":"Service"},"mother":{"name":"Salma Begum","mobile":"01833333333","occupation":"Teacher"},"guardian":{"name":"Habib Ahmed","relation":"Father","mobile":"01933333333"},"permanent":{"village":"Sakhipur","postOffice":"Sakhipur","upazila":"Sakhipur","district":"Tangail"},"present":{"village":"Sakhipur","postOffice":"Sakhipur","upazila":"Sakhipur","district":"Tangail"},"prevSchool":"Model Primary","prevClass":"3","prevResult":"Passed","height":"131 cm","weight":"29 kg","eyesight":"Normal","vaccines":[true,true,true,true,true,true],"diseases":"None","emergency":{"name":"Habib Ahmed","relation":"Father","mobile":"01933333333"},"admissionDate":"2026-01-04","photo":""}
+  ],
+  "teachers": [
+    {"id":"old-t1","t-nameEn":"Jannatul Ferdous","t-nameBn":"জান্নাতুল ফেরদৌস","t-desig":"Assistant Teacher","t-mobile":"01744444444","t-join":"2018-02-01","t-salary":"32500","t-pin":"7788","t-nid":"44112233","t-subs":"Bangla, English","t-qual":"B.Ed","t-dob":"1988-04-04","t-address":"Tangail","photo":""},
+    {"id":"old-t2","t-nameEn":"Rafiqul Islam","t-nameBn":"রফিকুল ইসলাম","t-desig":"Assistant Teacher","t-mobile":"01855555555","t-join":"2016-01-10","t-salary":"34750","t-pin":"9911","t-nid":"55112233","t-subs":"Mathematics","t-qual":"M.Ed","t-dob":"1985-08-14","t-address":"Mirzapur","photo":""}
+  ],
+  "results": {
+    "3-5|1st|3": {
+      "1|A": {"_section":"A","Bangla":{"c":25,"s":61},"Mathematics":{"c":27,"s":63}},
+      "1|B": {"_section":"B","Bangla":{"c":24,"s":58},"Mathematics":{"c":26,"s":60}}
+    },
+    "3-5|Monthly Assessment|4": {"7":{"Bangla":{"c":23,"s":55},"Primary Science":{"c":25,"s":59}}}
+  },
+  "attendance": {"2026-03-01|3":{"old-s1":"P","old-s2":"A"},"2026-03-01|4":{"old-s3":"P"}},
+  "feeTypes": [{"id":"old-f1","name":"Monthly Tuition","amount":350,"appliesTo":"all","frequency":"monthly"}],
+  "payments": [{"id":"old-p1","receiptNo":"R-0042","studentId":"old-s1","feeTypeId":"old-f1","feeTypeName":"Monthly Tuition","amount":350,"discount":0,"method":"Cash","date":"2026-03-01","note":"March"}],
+  "notices": [{"id":"old-n1","title":"Independence Day","body":"School closed","date":"2026-03-26","category":"holiday"}],
+  "routine": [{"id":"old-r1","group":"3-5","term":"1st","date":"2026-05-10","subject":"Bangla","time":"10:00 AM","shift":"Morning"}],
+  "leaveRequests": [{"id":"old-l1","teacherId":"old-t1","leaveType":"Casual leave","from":"2026-04-01","to":"2026-04-02","status":"Pending"}],
+  "questions": [{"id":"old-q1","teacherId":"old-t1","title":"Bangla questions","text":"Question text"}],
+  "papers": [],
+  "marksSubs": []
+}
